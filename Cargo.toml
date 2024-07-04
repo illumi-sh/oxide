@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+
+members = [ "cli", "core/common", "core/ipc", "core/project", "daemon", "homeserver"]
+
+[workspace.dependencies]
+oxide_common = { version = "=0.0.1", path = "core/common" }
+oxide_ipc = { version = "=0.0.1", path = "core/ipc" }
+
+serde_json = "1.0.108"
+serde = "1.0.192"
+glob = "0.3.1"
