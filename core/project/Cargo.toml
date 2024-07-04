@@ -1,0 +1,9 @@
+[package]
+name = "oxide_project"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+serde = { workspace = true, features = ["derive"] }
+glob = { workspace = true }
+toml = { workspace = true }
