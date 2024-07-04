@@ -1,0 +1,7 @@
+{
+  "bind_addr": "127.0.0.1:42068",
+  "local_repositories": {
+    "npm": true,
+    "maven": true
+  }
+}

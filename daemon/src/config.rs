@@ -1,9 +1,9 @@
-use std::collections::HashMap;
+// use std::collections::HashMap;
 use std::fs;
 use std::net::SocketAddrV4;
 use std::path::PathBuf;
 use serde::{Deserialize, Serialize};
-use oxide_common::GenericRepositoryConfig;
+// use oxide_common::GenericRepositoryConfig;
 
 // #[derive(Serialize, Deserialize, Clone)]
 // pub struct OxideHomeServerConfig {
@@ -26,7 +26,7 @@ pub struct OxideLocalRepositoriesConfig {
 #[derive(Serialize, Deserialize, Clone)]
 pub struct OxideDaemonConfig {
     pub bind_addr: SocketAddrV4,
-    pub home_servers: Vec<OxideHomeServerConfig>,
+    // pub home_servers: Vec<OxideHomeServerConfig>,
     // pub external_repositories: HashMap<String, Vec<GenericRepositoryConfig>>,
     pub local_repositories: OxideLocalRepositoriesConfig,
 }

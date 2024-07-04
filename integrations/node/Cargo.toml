@@ -1,8 +1,9 @@
 [package]
-name = "oxide_homeserver"
+name = "oxide_node"
 version = "0.0.1"
 edition = "2021"
 
 [dependencies]
-oxide_project = { workspace = true }
 oxide_common = { workspace = true }
+
+package-json = "0.4.0"

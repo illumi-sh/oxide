@@ -4,4 +4,10 @@ version = "0.0.1"
 edition = "2021"
 
 [dependencies]
+oxide_project = { workspace = true }
 oxide_common = { workspace = true }
+oxide_ipc = { workspace = true }
+
+serde_json = { workspace = true }
+structopt = { workspace = true }
+serde = { workspace = true, features = ["derive"] }
